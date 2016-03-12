@@ -1,0 +1,36 @@
+{
+  "name": "react-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base . --history-api-fallback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaBlackwell/react-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaBlackwell/react-list/issues"
+  },
+  "homepage": "https://github.com/AnnaBlackwell/react-list#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.2",
+    "babel-eslint": "^5.0.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "express": "^4.13.4",
+    "express-urlrewrite": "^1.2.0",
+    "http-server": "^0.9.0",
+    "react": "^0.14.7",
+    "react-addons-test-utils": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.1",
+    "webpack": "^1.12.14",
+    "webpack-dev-middleware": "^1.5.1"
+  }
+}
